@@ -30,7 +30,8 @@ navigation:
       url: /contact
 
 social:
-    github: yaoxiong-p
+    #github: yaoxiong-p
+    orcid: 0000-0001-9350-6112
     twitter: YaoXiong_C
     #facebook: brianmaierjr
     email: yaoxiong@ucsb.edu
