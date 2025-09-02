@@ -1,12 +1,16 @@
 ---
 layout: default
-title: About Long Haul
+title: About Yao Xiong
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/3D_Network.png' | relative_url }}" alt="">
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
+	<h1 class="pageTitle">About Yao Xiong</h1>
+	<img src="{{ '/assets/img/Yao Xiong_headshot.jpg' | relative_url }}" alt="">
+	<p class="intro">I am a postdoctoral researcher at the University of California, Santa Barbara, working in the group of Prof. Glenn Fredrickson. My research focuses on multiscale modeling and simulation of active and responsive soft matter systems. I employ approaches such as dissipative particle dynamics (DPD), field-theoretic simulations (FTS), and finite element methods (FEM) to investigate a wide range of thermodynamic and dynamic phenomena in polymers, gels, and biomaterials.
+
+I am passionate about advancing computational frameworks that bridge molecular, mesoscopic, and continuum scales to uncover new design principles for soft materials.
+
+Feel free to reach out—I’m always happy to connect and discuss science!.</p>
 	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
 	<h2>Features</h2>
 	<ul>
