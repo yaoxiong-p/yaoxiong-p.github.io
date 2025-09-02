@@ -23,11 +23,11 @@ navigation:
       url: /index.html
     - title: About
       url: /about
-    - title: Contact
-      url: /contact
     - title: Recent Works
     - title: Research
     - title: Publications
+    - title: Contact
+      url: /contact
 
 social:
     github: yaoxiong-p
