@@ -8,6 +8,9 @@
 
 		<div class="footer-links">
 			<ul class="noList">
+				{%- if site.social.orcid -%}
+					{%- include footer_links/orcid_icon.html -%}
+				{%- endif -%}
 				{%- if site.social.facebook -%}
 					{%- include footer_links/facebook_icon.html -%}
 				{%- endif -%}
