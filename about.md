@@ -6,7 +6,7 @@ title: About Yao Xiong
 <div class="post">
 	<h1 class="pageTitle">About Yao Xiong</h1>
 	<div style="display: flex; align-items: flex-start;">
-		<img src="{{ '/assets/img/Yao Xiong_headshot.jpg' | relative_url }}" alt="" style="width:150px; height:auto; margin-right:20px;">
+		<img src="{{ '/assets/img/Yao Xiong_headshot_Transp.jpg' | relative_url }}" alt="" style="width:150px; height:auto; margin-right:20px;">
 		<div>
 			<p class="intro">I am a postdoctoral researcher at the University of California, Santa Barbara, working in the group of Prof. Glenn Fredrickson. My research focuses on multiscale modeling and simulat[...]
 
