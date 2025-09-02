@@ -1,9 +1,14 @@
 ---
 layout: post
-title:  "Featured Image"
-date:   2014-12-14
-image: touring.jpg
+title:  "Rheological Isotope Effects for Molecular Insight in Covalent Adaptable Networks"
+date:   2025-07-21
+description: Macromolecules 2025, 58, 15, 7957–7966.
+image: /assets/img/macromolecules_21Jul2025.jpeg
 ---
+
+[Macromolecules 2025, 58, 15, 7957–7966](https://pubs.acs.org/doi/full/10.1021/acs.macromol.5c01258)
+
+[![Macromolecules](/assets/img/macromolecules_21Jul2025.jpeg)](https://pubs.acs.org/doi/full/10.1021/acs.macromol.5c01258)
 
 <p class="intro"><span class="dropcap">L</span>orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.</p>
 
