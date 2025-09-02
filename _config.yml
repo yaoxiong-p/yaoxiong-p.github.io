@@ -25,6 +25,9 @@ navigation:
       url: /about
     - title: Contact
       url: /contact
+    - title: Recent Works
+    - title: Research
+    - title: Publications
 
 social:
     github: yaoxiong-p
