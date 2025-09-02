@@ -3,7 +3,7 @@ layout: post
 title:  "Design Principles of Stimuli-Responsive Covalent Adaptable Networks"
 date:   2025-08-19
 description: Macromolecules 2025, XXXX, XXX, XXX-XXX.
-image: /assets/img/macromolecules_19Aug2025.jpeg
+image: macromolecules_19Aug2025.jpeg
 ---
 
 <p class="intro"><span class="dropcap">C</span>urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.</p>
