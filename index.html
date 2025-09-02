@@ -8,17 +8,17 @@ title: Yao Xiong
 	<section class="research-interests" id="research-interests">
 		<h1 class="pageTitle">Research Interests</h1>
 		<div style="display:flex; justify-content:center;">
-			<video controls loop style="max-width:100%; height:auto;" playbackRate="0.5" id="research-video">
+			<video 
+				controls 
+				autoplay 
+				loop 
+				muted 
+				style="max-width:100%;height:auto;" 
+				onplay="this.playbackRate=0.75;">
 				<source src="{{ '/assets/Video2.mp4' | relative_url }}" type="video/mp4">
 				Your browser does not support the video tag.
 			</video>
 		</div>
-		<script>
-			document.addEventListener('DOMContentLoaded', function() {
-				var vid = document.getElementById('research-video');
-				if (vid) { vid.playbackRate = 0.5; }
-			});
-		</script>
 		<p>
 			My research interest is in exploring cutting-edge methodologies and technologies within computer vision, machine learning, and artificial intelligence, with a particular focus on multimodal data understanding, video analysis, and efficient representation learning.
 		</p>
