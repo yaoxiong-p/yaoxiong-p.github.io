@@ -12,6 +12,9 @@ title: Yao Xiong
 			<h3>
 				<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
 			</h3>
+			{%- if post.image -%}
+    		<img src="{{ post.image | relative_url }}" alt="Post image" style="max-width:100%;height:auto;">
+    		{%- endif -%}
 			<p>
 				{%- if post.description -%}{{ post.description }}{%- else -%}{{
 				post.excerpt | strip_html }}{%- endif -%}
