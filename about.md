@@ -8,7 +8,7 @@ title: About Yao Xiong
 	<div style="display: flex; align-items: flex-start;">
 		<img src="{{ '/assets/img/Yao Xiong_headshot_Transp.jpg' | relative_url }}" alt="" style="width:150px; height:auto; margin-right:20px;">
 		<div>
-			<p class="intro">I am a postdoctoral researcher at the University of California, Santa Barbara, working in the group of Prof. Glenn Fredrickson. My research focuses on multiscale modeling and simulat[...]
+			<p class="intro">I am a postdoctoral researcher at the University of California, Santa Barbara, working in the group of Prof. Glenn Fredrickson. My research focuses on multiscale modeling and simulation of active and responsive soft matter systems. I employ approaches such as dissipative particle dynamics (DPD), field-theoretic simulations (FTS), and finite element methods (FEM) to investigate a wide range of thermodynamic and dynamic phenomena in polymers, gels, and biomaterials.
 
 I am passionate about advancing computational frameworks that bridge molecular, mesoscopic, and continuum scales to uncover new design principles for soft materials.
 
