@@ -25,25 +25,60 @@ title: Yao Xiong
 	</section>
 	
 	<h1 class="pageTitle">Recent Works</h1>
-	<div class="posts noList">
-		{%- for post in paginator.posts -%}
-		<article>
-			<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-			<h3>
-				<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-			</h3>
-			{%- if post.image -%}
-    		<img src="{{ post.image | relative_url }}" alt="Post image" style="max-width:100%;height:auto;">
-    		{%- endif -%}
-			<p>
-				{%- if post.description -%}{{ post.description }}{%- else -%}{{
-				post.excerpt | strip_html }}{%- endif -%}
-			</p>
-		</article>
-		{%- endfor -%}
+	<!-- 横向自动滚动循环播放的posts -->
+	<div class="posts-carousel-wrapper" style="overflow:hidden;position:relative;">
+		<div class="posts-carousel" id="posts-carousel" style="display:flex;gap:24px;white-space:nowrap;animation:scroll-posts 40s linear infinite;">
+			{%- for post in paginator.posts -%}
+			<article style="min-width:320px;max-width:360px;background:#fff;border-radius:8px;box-shadow:0 0 4px #ddd;padding:16px;display:inline-block;vertical-align:top;">
+				<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+				<h3>
+					<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+				</h3>
+				{%- if post.image -%}
+				<img src="{{ post.image | relative_url }}" alt="Post image" style="max-width:100%;height:auto;">
+				{%- endif -%}
+				<p>
+					{%- if post.description -%}{{ post.description }}{%- else -%}{{
+					post.excerpt | strip_html }}{%- endif -%}
+				</p>
+			</article>
+			{%- endfor -%}
+			<!-- 再复制一遍用于循环无缝滚动 -->
+			{%- for post in paginator.posts -%}
+			<article style="min-width:320px;max-width:360px;background:#fff;border-radius:8px;box-shadow:0 0 4px #ddd;padding:16px;display:inline-block;vertical-align:top;">
+				<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+				<h3>
+					<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+				</h3>
+				{%- if post.image -%}
+				<img src="{{ post.image | relative_url }}" alt="Post image" style="max-width:100%;height:auto;">
+				{%- endif -%}
+				<p>
+					{%- if post.description -%}{{ post.description }}{%- else -%}{{
+					post.excerpt | strip_html }}{%- endif -%}
+				</p>
+			</article>
+			{%- endfor -%}
+		</div>
 	</div>
+	<style>
+	@keyframes scroll-posts {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(-50%);
+		}
+	}
+	.posts-carousel {
+		will-change: transform;
+	}
+	.posts-carousel-wrapper {
+		width:100%;
+	}
+	</style>
 	<!-- Pagination links -->
-	<div class="pagination">
+	<div class="pagination" style="margin-top:36px;">
 		{%- if paginator.previous_page -%}
 		<a
 			href="{{ paginator.previous_page_path | relative_url }}"
