@@ -2,7 +2,7 @@
 layout: post
 title:  "Rheological Isotope Effects for Molecular Insight in Covalent Adaptable Networks"
 date:   2025-07-21
-description: Macromolecules 2025, 58, 15, 7957–7966.
+description: Macromolecules 2025, 58, 15, 7957–7966
 image: /assets/img/macromolecules_21Jul2025.jpeg
 ---
 
