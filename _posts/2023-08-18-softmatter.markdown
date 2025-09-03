@@ -1,8 +1,14 @@
 ---
 layout: post
-title:  "Figure With A Caption"
-date:   2014-12-12
+title:  "Janus magnetoelastic membrane swimmers"
+date:   2023-08-18
+description: Soft Matter, 2023,19, 6721-6730
+image: /assets/img/softmatter_18Aug2023.pdf
 ---
+
+[Soft Matter, 2023,19, 6721-6730](https://pubs.rsc.org/en/content/articlelanding/2023/sm/d3sm00788j)
+
+[![Soft Matter](/assets/img/softmatter_18Aug2023.pdf)](https://pubs.rsc.org/en/content/articlelanding/2023/sm/d3sm00788j)
 
 
 <p class="intro"><span class="dropcap">L</span>orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.</p>
