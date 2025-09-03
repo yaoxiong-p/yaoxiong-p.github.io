@@ -1,8 +1,14 @@
 ---
 layout: post
-title:  "Image in Post"
-date:   2014-12-11
+title:  "Photocontrol of pattern formation and hysteresis loops in polymer gels with host-guest interactions"
+date:   2022-12-22
+description: iScience, Volume 25, Issue 12, 105606
+image: /assets/img/iscience_22Dec2022.jpg
 ---
+
+[iScience, Volume 25, Issue 12, 105606](https://www.cell.com/iscience/fulltext/S2589-0042(22)01878-8)
+
+[![iScience](/assets/img/iscience_22Dec2022.jpg)](https://www.cell.com/iscience/fulltext/S2589-0042(22)01878-8)
 
 <p class="intro"><span class="dropcap">L</span>orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.</p>
 
