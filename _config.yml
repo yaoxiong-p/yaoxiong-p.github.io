@@ -30,6 +30,7 @@ navigation:
       url: /recent_works
     - title: Research
     - title: Publications
+      url: /publications
     - title: Contact
       url: /contact
 
