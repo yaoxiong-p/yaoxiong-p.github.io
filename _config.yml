@@ -24,6 +24,7 @@ navigation:
     - title: About
       url: /about
     - title: Recent Works
+      url: /articles
     - title: Research
     - title: Publications
     - title: Contact
