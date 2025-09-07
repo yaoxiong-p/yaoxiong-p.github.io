@@ -1,0 +1,21 @@
+/* 缩小整体宽度与边距 */
+.post {
+  max-width: 960px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* 缩小正文字体 */
+.post p,
+.post li {
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+/* 缩小标题字体 */
+.post h1 { font-size: 1.6rem; }
+.post h2 { font-size: 1.25rem; }
+.post h3 { font-size: 1.1rem; }
+
+/* 可选：全局基础字号 */
+html { font-size: 16px; }
