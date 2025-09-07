@@ -1,4 +1,4 @@
-title: Yao Xiong
+ttitle: Yao Xiong
 description: Long Form Jekyll theme built with SASS
 
 url: https://yaoxiong-p.github.io
@@ -24,7 +24,7 @@ navigation:
     - title: About
       url: /about
     - title: Recent Works
-      url: /articles
+      url: /recent_works
     - title: Research
     - title: Publications
     - title: Contact
