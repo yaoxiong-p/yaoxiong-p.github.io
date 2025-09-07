@@ -109,9 +109,9 @@ title: About Yao Xiong
       <h2 class="section-title">Education</h2>
       <div class="edu">
         <!-- 按需修改条目 -->
-        <div class="edu-item"><span class="edu-year">2022</span> Ph.D., Chemical Engineering — Clemson University</div>
-        <div class="edu-item"><span class="edu-year">2018</span> M.S., <em>Discipline</em> — <em>Institution</em></div>
-        <div class="edu-item"><span class="edu-year">2015</span> B.S., <em>Discipline</em> — <em>Institution</em></div>
+        <div class="edu-item"><span class="edu-year">2022</span> Ph.D., Materials Science and Engineering — Clemson University</div>
+        <div class="edu-item"><span class="edu-year">2016</span> M.S., Materials Science and Engineering — University of Florida</div>
+        <div class="edu-item"><span class="edu-year">2014</span> B.E., Composite Materials Engineering — Wuhan University of Technology</div>
       </div>
 
       <a class="view-cv" href="{{ '/assets/cv/Yao_Xiong_CV.pdf' | relative_url }}" target="_blank" rel="noopener">View Full CV</a>
