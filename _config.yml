@@ -15,7 +15,10 @@ sass:
 
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-scholar
+  
 paginate: 5
 
 navigation:
@@ -44,3 +47,12 @@ google_analytics: "UA-58263416-1"
 
 disqus:
     shortname: yaoxiong
+
+# ➜ jekyll-scholar 配置（实现：ACS 样式 + 标题可点击 + 按 bib 顺序）
+scholar:
+  style: _bibliography/american-chemical-society.csl
+  locale: en
+  bibliography: _bibliography/ref.bib
+  sort_by: none
+  order: ascending
+  bibliography_template: bib_item
