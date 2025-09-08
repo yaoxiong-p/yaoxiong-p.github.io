@@ -5,3 +5,15 @@ body {
 .container {
   max-width: 1300px;
 }
+
+
+/* 统一缩放所有页面标题 */
+.pageTitle {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+/* 仅在 >=1200px 宽度时再微调（可选） */
+@media (min-width: 1200px) {
+  .pageTitle { font-size: 1.4rem; }
+}
