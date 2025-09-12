@@ -10,7 +10,7 @@ permalink: /publications/
 <ol reversed>
 <li> <strong>Y. Xiong</strong>; C. Deng; S. Wei; L. M. Campos; M. Olvera de la Cruz; J. A. Kalow, “<a href="https://doi.org/10.1021/acs.macromol.5c01102" target="_blank">Design Principles of Stimuli-Responsive Covalent Adaptable Networks</a>”, <em>Macromolecules</em> <strong>2025</strong>, <em>58</em>(17), 9546–9555.</li>
 
-<li> C. M. Hemmingsen; S. J. Chapman; C. Deng; <strong>Y. Xiong</strong>; C. J. Hanley; V. Zhang; M. Olvera de la Cruz; J. A. Kalow, “<a href="https://doi.org/10.1021/acs.macromol.5c01258" target="_blank">Rheological Isotope Effects for Molecular Insight in Covalent Adaptable Networks</a>”, <em>Macromolecules</em> <strong>2025</strong>, <em>58</em>(17), 7957–7966.</li>
+<li> C. M. Hemmingsen; S. J. Chapman; C. Deng; <strong>Y. Xiong</strong>; C. J. Hanley; V. Zhang; M. Olvera de la Cruz; J. A. Kalow, “<a href="https://doi.org/10.1021/acs.macromol.5c01258" target="_blank">Rheological Isotope Effects for Molecular Insight in Covalent Adaptable Networks</a>”, <em>Macromolecules</em> <strong>2025</strong>, <em>58</em>(15), 7957–7966.</li>
 
 <li> <strong>Y. Xiong</strong>; A. Aggarwal; M. Olvera de la Cruz, “<a href="https://doi.org/10.1002/adfm.202507078" target="_blank">Chemo-Mechanical Coupling in Hydrogels: Dynamics in the Diffusion-Limited Regime</a>”, <em>Adv. Funct. Mater.</em> <strong>2025</strong>, 2507078.</li>
 
