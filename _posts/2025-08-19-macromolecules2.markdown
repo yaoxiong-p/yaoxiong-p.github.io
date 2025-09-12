@@ -2,11 +2,11 @@
 layout: post
 title:  "Design Principles of Stimuli-Responsive Covalent Adaptable Networks"
 date:   2025-08-19
-description: Macromolecules 2025, XXXX, XXX, XXX-XXX
+description: Macromolecules 2025, 58, 17, 9546–9555
 image: /assets/img/macromolecules_19Aug2025.jpeg
 ---
 
-[Macromolecules 2025, XXXX, XXX, XXX-XXX](https://pubs.acs.org/doi/full/10.1021/acs.macromol.5c01102)
+[Macromolecules 2025, 58, 17, 9546–9555](https://pubs.acs.org/doi/full/10.1021/acs.macromol.5c01102)
 
 [![Macromolecules](/assets/img/macromolecules_19Aug2025.jpeg)](https://pubs.acs.org/doi/full/10.1021/acs.macromol.5c01102)
 
