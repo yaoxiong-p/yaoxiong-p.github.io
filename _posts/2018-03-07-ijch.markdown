@@ -3,11 +3,11 @@ layout: post
 title:  "Phase Transitions and Pattern Formation in Chemo-Responsive Gels and Composites"
 date:   2018-03-07
 description: Isr. J. Chem. 2018, 58, 693
-image: /assets/img/ijch_07Mar2018.jpg
+image: /assets/img/ToC/ijch_07Mar2018.jpg
 ---
 
 [Isr. J. Chem. 2018, 58, 693](https://onlinelibrary.wiley.com/doi/full/10.1002/ijch.201700137)
 
-[![Langmuir](/assets/img/ijch_07Mar2018.jpg)](https://onlinelibrary.wiley.com/doi/full/10.1002/ijch.201700137)
+[![Langmuir](/assets/img/ToC/ijch_07Mar2018.jpg)](https://onlinelibrary.wiley.com/doi/full/10.1002/ijch.201700137)
 
 <p class="intro"><span class="dropcap">D</span>esign of multifunctional materials often requires the chemical functionalization enabling the material to respond to a variety of stimuli. Herein, we focus on modeling of functionalized chemo-responsive gels and composites; functionalization alters the volume phase transitions allowing system to undergo structural reconfiguration. For instance, we consider the volume phase transitions in photo-sensitive hydrogels functionalized with two different types of chromophores that either alter the hydrophobicity of the illuminated sample or cause these samples to heat up. We then focus on gels that are driven by the oscillatory Belousov-Zhabotinsky reaction and show that chemically mediated interactions among these gels drive them to self-aggregate in a well-defined manner. Finally, we focus on the self-oscillating composite that does not contain oscillatory chemically reactions. In all these examples, effective control over the volume phase transitions is achieved through the combination of chemical functionalization and external stimuli, extending the potential utility of the host materials.
