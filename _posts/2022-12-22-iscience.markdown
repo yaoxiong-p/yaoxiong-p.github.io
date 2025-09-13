@@ -3,11 +3,11 @@ layout: post
 title:  "Photocontrol of pattern formation and hysteresis loops in polymer gels with host-guest interactions"
 date:   2022-12-22
 description: iScience, Volume 25, Issue 12, 105606
-image: /assets/img/iscience_22Dec2022.jpg
+image: /assets/img/ToC/iscience_22Dec2022.jpg
 ---
 
 [iScience, Volume 25, Issue 12, 105606](https://www.cell.com/iscience/fulltext/S2589-0042(22)01878-8)
 
-[![iScience](/assets/img/iscience_22Dec2022.jpg)](https://www.cell.com/iscience/fulltext/S2589-0042(22)01878-8)
+[![iScience](/assets/img/ToC/iscience_22Dec2022.jpg)](https://www.cell.com/iscience/fulltext/S2589-0042(22)01878-8)
 
 <p class="intro"><span class="dropcap">P</span>atterns formed under external stresses are often critical for ensuring the functionality of soft materials. We focus on dynamic control of pattern formation and restructuring in hydrogels with host-guest interactions. We extend the three-dimensional gel Lattice Spring Model to capture the dynamics of photo-responsive hydrogels with pendant azobenzene moieties immersed in the α-cyclodextrin (α-CD) solution. While trans-azobenzene moieties are accommodated by the α-CD cavities forming inclusion complexes resulting in hydrogel swelling, exposure to UV irradiation induces trans-to-cis photoisomerization leading to decomplexation and matrix deswelling. We demonstrate swelling-induced patterns in confined samples upon adding the α-CD solution in the dark. Further, we show that spatiotemporal variations in UV irradiation effectively control patterns formed and hysteresis loops. We introduce soft confinements via illuminating specific regions of unconstrained samples with UV light. Our results indicate that features of patterns and hysteresis in systems’ response to external conditions can be regulated via well-defined illumination patterns.
