@@ -3,12 +3,12 @@ layout: post
 title:  "Chemo-Mechanical Coupling in Hydrogels: Dynamics in the Diffusion-Limited Regime"
 date:   2025-06-05
 description: Adv. Funct. Mater. 2025, 2507078.
-image: /assets/img/afm_05Jun2025.jpg
+image: /assets/img/ToC/afm_05Jun2025.jpg
 ---
 
 [Adv. Funct. Mater. 2025, 2507078](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202507078)
 
-[![Adv](/assets/img/afm_05Jun2025.jpg)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202507078)
+[![Adv](/assets/img/ToC/afm_05Jun2025.jpg)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202507078)
 
 <p class="intro"><span class="dropcap">H</span>ydrogels are characterized by substantial volume changes in response to external stimuli, making them promising candidates for developing smart materials with enhanced adaptability and responsiveness. By integrating chemical reactions, hydrogels acquire dynamic and tunable responsiveness to external stimuli through chemo-mechanical coupling, expanding their potential in emerging applications. However, capturing their transient behavior remains challenging due to the complex interplay of chemical reactions, solvent transport, and polymer network deformation. Classical theories capture equilibrium swelling but fail to describe time-dependent phenomena. To address this, a time-dependent continuum model is developed that explicitly couples these processes. Volume phase transition in hydrogels with homogeneous chemical reactions is investigated, then the effects of reaction kinetics on these transitions are analyzed. The coupling of these mechanisms is further explored through a study of transient mechanical instabilities. To illustrate the impact of distinct reaction and diffusion timescales, a photo-active gripper is studied for robotic applications. Finally, a photo-active microswimmer that exhibits non-reciprocal motion is proposed to highlight the solvent diffusion for locomotion at the micro- and nano- scales. The work establishes that transient dynamics of chemo-mechanical hydrogels generate functions not accessible by steady state models and provides a predictive platform for designing adaptive materials in emerging applications.
 
