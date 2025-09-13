@@ -3,11 +3,11 @@ layout: post
 title:  "Mechanical Adaptability of Patterns in Constrained Hydrogel Membranes"
 date:   2021-04-12
 description: Langmuir 2021, 37, 16, 4900–4912
-image: /assets/img/langmuir_12Apr2021.png
+image: /assets/img/ToC/langmuir_12Apr2021.png
 ---
 
 [Langmuir 2021, 37, 16, 4900–4912](https://pubs.acs.org/doi/full/10.1021/acs.langmuir.1c00138#)
 
-[![Langmuir](/assets/img/langmuir_12Apr2021.png)](https://pubs.acs.org/doi/full/10.1021/acs.langmuir.1c00138#)
+[![Langmuir](/assets/img/ToC/langmuir_12Apr2021.png)](https://pubs.acs.org/doi/full/10.1021/acs.langmuir.1c00138#)
 
 <p class="intro"><span class="dropcap">P</span>attern formation and dynamic restructuring play a vital role in a plethora of natural processes. Understanding and controlling pattern formation in soft synthetic materials is important for imparting a range of biomimetic functionalities. Using a three-dimensional gel Lattice spring model, we focus on the dynamics of pattern formation and restructuring in thin thermoresponsive poly(N-isopropylacrylamide) membranes under mechanical forcing via stretching and compression. A mechanical instability due to the constrained swelling of a polymer network in response to the temperature quench results in out-of-plane buckling of these membranes. The depth of the temperature quench and applied mechanical forcing affect the onset of buckling and postbuckling dynamics. We characterize formation and restructuring of buckling patterns under the stretching and compression by calculating the wavelength and the amplitude of these patterns. We demonstrate dynamic restructuring of the patterns under mechanical forcing and characterize the hysteresis behavior. Our findings show that in the range of the strain rates probed, the wavelength prescribed during the compression remains constant and independent of the sample widths, while the amplitude is regulated dynamically. We demonstrate that significantly smaller wavelengths can be prescribed and sustained dynamically than those achieved in equilibrium in the same systems. We show that an effective membrane thickness may decrease upon compression due to the out-of-plane deformations and pattern restructuring. Our findings point out that mechanical forcing can be harnessed to control the onset of buckling, postbuckling dynamics, and hysteresis phenomena in gel-based systems, introducing novel means of tailoring the functionality of soft structured surfaces and interfaces.
