@@ -7,12 +7,15 @@ title: Research
   <h1>Current research at UCSB</h1>
   <h1>Previous research at NU</h1>
   <div class="post">
-  <div class="about-wrap">
-    <!-- 左侧头像 + 社交 -->
-    <div class="about-photo">
-      <img src="{{ '/assets/img/Scheme/Antibody.png' | relative_url }}">
-      <div class="social-row">
-      </div>
-    </div>
+    <div class="about-wrap">
+      <!-- 左侧头像 + 社交 -->
+      <div class="about-photo">
+        <img src="{{ '/assets/img/Scheme/Swimmer_meshed.png' | relative_url }}">
+        <img src="{{ '/assets/img/Scheme/Antibody.png' | relative_url }}">
+        <div class="social-row">
+        </div> <!-- end social-row -->
+      </div> <!-- end about-photo -->
+    </div> <!-- end about-wrap -->
+  </div> <!-- end post -->
   <h1>Previous research at CU</h1>
 </div>
