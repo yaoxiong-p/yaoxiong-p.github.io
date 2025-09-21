@@ -43,7 +43,7 @@ title: About Yao Xiong
 
   /* 教育时间轴 */
   .edu{
-    position:relative; padding-left:26px;
+    position:relative; padding-left:26px; max-width: 72ch; 
   }
   .edu::before{
     content:""; position:absolute; left:8px; top:6px; bottom:6px; width:2px; background:rgba(46,139,87,.25);
