@@ -38,7 +38,7 @@ title: About Yao Xiong
   .social-btn.orcid svg path{ fill:#fff; }
   .about-main{ flex:1 1 420px; min-width:320px; }
   .about-name{ font-size:1.8rem; font-weight:700; margin:.25rem 0 0.75rem; }
-  .introp{ font-size:1.5rem; line-height:1.8; color:var(--text); max-width:72ch; }
+  .introp{ font-size:1.3rem; line-height:1.3; color:var(--text); max-width:72ch; text-align: justify;}
   .section-title{ font-size:1.1rem; letter-spacing:.02em; margin:1.75rem 0 .75rem; font-weight:700; }
 
   /* 教育时间轴 */
