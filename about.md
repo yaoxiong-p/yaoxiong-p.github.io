@@ -38,7 +38,7 @@ title: About Yao Xiong
   .social-btn.orcid svg path{ fill:#fff; }
   .about-main{ flex:1 1 420px; min-width:320px; }
   .about-name{ font-size:1.8rem; font-weight:700; margin:.25rem 0 0.75rem; }
-  .intro{ font-size:2.8rem; line-height:1.0; color:var(--text); max-width:72ch; }
+  .introp{ font-size:2.8rem; line-height:1.0; color:var(--text); max-width:72ch; }
   .section-title{ font-size:1.1rem; letter-spacing:.02em; margin:1.75rem 0 .75rem; font-weight:700; }
 
   /* 教育时间轴 */
@@ -97,7 +97,7 @@ title: About Yao Xiong
     <!-- 右侧主内容 -->
     <div class="about-main">
       <h1 class="about-name">Yao Xiong</h1>
-      <p class="intro">
+      <p class="introp">
         I am a postdoctoral researcher at the University of California, Santa Barbara, working in the group of Prof. Glenn Fredrickson. 
         My research focuses on multiscale modeling and simulation of active and responsive soft matter systems. I employ approaches such as
         dissipative particle dynamics (DPD), field-theoretic simulations (FTS), and finite element methods (FEM) to investigate a wide
