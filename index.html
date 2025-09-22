@@ -1,0 +1,127 @@
+---
+layout: default
+title: Yao Xiong
+---
+
+<div class="home" id="home">
+	<!-- Research Interests Section -->
+	<section class="research-interests" id="research-interests">
+		<h1 class="pageTitle">Research Interests</h1>
+		<div style="display:flex; justify-content:center;">
+			<video 
+				controls 
+				autoplay 
+				loop 
+				muted 
+				style="max-width:100%;height:auto;" 
+				onplay="this.playbackRate=0.75;">
+				<source src="{{ '/assets/Video2.mp4' | relative_url }}" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+		<p>
+			My research focuses on designing smart systems that adapt, respond, and interact with their environment. By integrating computer modeling and simulation with close collaboration with experimental scientists, I aim to create systems that learn from nature and address pressing challenges in technology and healthcare. My work advances computational methods, nanomaterials, polymer physics, clean energy, flexible electronics, soft robotics, and biomedical technologies, such as drug delivery and medical devices.
+		</p>
+	</section>
+	
+	<h1 class="pageTitle">Recent Works</h1>
+
+	<!-- 横向无缝滚动 -->
+	<div class="posts-marquee" aria-label="Recent works">
+		<!-- 轨道 A -->
+		<div class="posts-track">
+			{%- for post in paginator.posts -%}
+			<article class="post-card">
+				<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+				<h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+				{%- if post.image -%}
+				<img src="{{ post.image | relative_url }}" alt="Post image">
+				{%- endif -%}
+				<p>
+					{%- if post.description -%}{{ post.description }}{%- else -%}{{ post.excerpt | strip_html }}{%- endif -%}
+				</p>
+			</article>
+			{%- endfor -%}
+		</div>
+
+		<!-- 轨道 B (复制一份) -->
+		<div class="posts-track" aria-hidden="true">
+			{%- for post in paginator.posts -%}
+			<article class="post-card">
+				<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+				<h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+				{%- if post.image -%}
+				<img src="{{ post.image | relative_url }}" alt="">
+				{%- endif -%}
+				<p>
+					{%- if post.description -%}{{ post.description }}{%- else -%}{{ post.excerpt | strip_html }}{%- endif -%}
+				</p>
+			</article>
+			{%- endfor -%}
+		</div>
+	</div>
+
+	<!-- Pagination links -->
+	<div class="pagination" style="margin-top:36px;">
+		{%- if paginator.previous_page -%}
+		<a href="{{ paginator.previous_page_path | relative_url }}" class="previous button__outline">Newer Posts</a>
+		{%- endif -%}
+		{%- if paginator.next_page -%}
+		<a href="{{ paginator.next_page_path | relative_url }}" class="next button__outline">Older Posts</a>
+		{%- endif -%}
+	</div>
+</div>
+
+<style>
+	.posts-marquee{
+		--gap: 24px;
+		--duration: 40s;
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		gap: var(--gap);
+		align-items: stretch;
+	}
+	.posts-track{
+		display: flex;
+		flex-shrink: 0;
+		gap: var(--gap);
+		animation: posts-scroll var(--duration) linear infinite;
+	}
+	@keyframes posts-scroll{
+		to{ transform: translateX(calc(-100% - var(--gap))); }
+	}
+
+	.post-card{
+		min-width: 320px;
+		max-width: 360px;
+		background: #fff;
+		border-radius: 8px;
+		box-shadow: 0 0 4px #ddd;
+		padding: 16px;
+	}
+	.post-card img{ max-width:100%; height:auto; display:block; }
+	.posts-marquee .date{ font-size: 0.85rem; color:#666; }
+	.posts-marquee h3{ font-size:1.05rem; line-height:1.35; margin:8px 0; }
+	.posts-marquee h3 a{ color:#222; text-decoration:none; }
+	.posts-marquee h3 a:hover{ color: seagreen; }
+
+	.posts-marquee:hover .posts-track{ animation-play-state: paused; }
+
+	.posts-marquee::before,
+	.posts-marquee::after{
+		content:"";
+		position:absolute; top:0; bottom:0; width:60px; pointer-events:none;
+		z-index:1;
+	}
+	.posts-marquee::before{
+		left:0; background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+	}
+	.posts-marquee::after{
+		right:0; background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
+	}
+
+	@media (prefers-reduced-motion: reduce){
+		.posts-track{ animation: none; }
+	}
+</style>
