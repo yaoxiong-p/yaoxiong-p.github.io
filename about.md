@@ -111,7 +111,7 @@ title: About Yao Xiong
         <li class="edu-item"><span class="edu-year">2014</span> B.E., Composite Materials Engineering — Wuhan University of Technology</li>
       </ul>
 
-      <a class="view-cv" href="{{ '/assets/cv/Yao_Xiong_CV.pdf' | relative_url }}" target="_blank" rel="noopener">View Full CV</a>
+      <a class="view-cv" href="{{ '/assets/img/ToC/CV_YX_Sep2025.pdf' | relative_url }}" target="_blank" rel="noopener">View Full CV</a>
     </div>
   </div>
 </div>
