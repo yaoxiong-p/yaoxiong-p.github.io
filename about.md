@@ -73,8 +73,8 @@ title: About Yao Xiong
   /* 让“View Full CV”与列表文本左边界对齐：左侧缩进 = 圆点宽度 + 间距 */
   .view-cv{
     display:block;
-    margin-top: 1.1rem;
-    margin-left: 13rem;
+    margin-top: 0.6rem;
+    margin-left: 10rem;
     font-size: 1.3rem;             /* 与 Education 标题一致 */
     font-weight: 700;
     color: var(--accent);
