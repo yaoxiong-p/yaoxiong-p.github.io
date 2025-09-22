@@ -4,11 +4,11 @@ title: Recent works
 ---
 
 <div id="recent-works">
-  <h1>Recent Works</h1>
+  <h1 class="recent-title">Recent Works</h1>
   <ul class="posts noList">
     {%- for post in site.posts -%}
-      <li style="display:flex; align-items:flex-start; margin-bottom:24px;">
-        <div style="flex:1;">
+      <li style="display:flex; align-items:flex-start; margin-bottom:24px; gap:20px;">
+        <div style="flex:2;">
           <span class="date" style="font-size:0.9em; color:#666;">
             {{ post.date | date_to_string }}
           </span>
@@ -24,13 +24,21 @@ title: Recent works
           </p>
         </div>
         {%- if post.image -%}
-          <div style="margin-left:20px; flex-shrink:0;">
+          <div style="flex:1; max-width:33%;">
             <img src="{{ post.image | relative_url }}" 
                  alt="Post image" 
-                 style="width:180px; height:auto; border-radius:6px;">
+                 style="width:100%; height:auto; border-radius:6px;">
           </div>
         {%- endif -%}
       </li>
     {%- endfor -%}
   </ul>
 </div>
+
+<style>
+  .recent-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+</style>
