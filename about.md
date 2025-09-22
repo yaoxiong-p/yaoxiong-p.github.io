@@ -26,17 +26,24 @@ title: About Yao Xiong
   .about-main{ flex:1 1 420px; min-width:320px; }
   .about-name{ font-size:1.8rem; font-weight:700; margin:.25rem 0 0.75rem; }
   .introp{ font-size:1.3rem; line-height:1.3; color:var(--text); max-width:72ch; text-align: justify;}
-  .section-title{ font-size:1.1rem; letter-spacing:.02em; margin:1.75rem 0 .75rem; font-weight:700; }
-
-  /* 教育部分去掉时间轴缩进，左对齐 */
+  
+  /* Education 样式 */
+  .section-title{ 
+    font-size:1.3rem; 
+    letter-spacing:.02em; 
+    margin:1.75rem 0 .75rem; 
+    font-weight:700; 
+  }
   .edu{
     max-width: 72ch; 
     margin-top: 0.5rem;
+    padding-left:0; /* 去掉缩进 */
   }
   .edu-item{ 
     margin: .6rem 0 .6rem; 
     color:var(--text); 
     padding-left:0; 
+    font-size:1.1rem; /* 每一项的字体大小 */
   }
   .edu-year{ font-weight:700; margin-right:.4rem; }
 
