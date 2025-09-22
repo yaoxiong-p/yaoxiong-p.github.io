@@ -27,8 +27,8 @@ navigation:
       url: /about
     - title: Recent Works
       url: /recent_works
-    - title: Research
-      url: /research
+    #- title: Research
+      #url: /research
     - title: Publications
       url: /publications
     - title: Contact
