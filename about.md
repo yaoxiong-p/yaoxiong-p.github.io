@@ -74,7 +74,7 @@ title: About Yao Xiong
   .view-cv{
     display:block;
     margin-top: 1.1rem;
-    margin-left: 3rem;
+    margin-left: 13rem;
     font-size: 1.3rem;             /* 与 Education 标题一致 */
     font-weight: 700;
     color: var(--accent);
