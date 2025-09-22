@@ -9,6 +9,10 @@ title: About Yao Xiong
     --text: #222;
     --muted: #666;
     --bg-soft: #f6f8f8;
+
+    /* 统一控制 bullet 与文本对齐的缩进变量 */
+    --bullet-size: 10px;   /* 圆点直径 */
+    --bullet-gap: 0.6rem;  /* 圆点与文字间距 */
   }
 
   .about-wrap{
@@ -18,7 +22,7 @@ title: About Yao Xiong
   }
   .about-photo{
     width:260px; max-width:100%;
-    align-self: center;           /* ← 让头像相对右侧整块内容垂直居中 */
+    align-self: center;            /* 头像对齐到右侧内容的中部 */
   }
   .about-photo img{
     width:100%; height:auto; display:block;
@@ -32,42 +36,46 @@ title: About Yao Xiong
 
   /* ---------- Education ---------- */
   .section-title{
-    font-size:1.3rem;            /* 与你要求一致 */
+    font-size:1.3rem;              /* 标题 1.3rem */
     letter-spacing:.02em;
     margin:1.75rem 0 .75rem;
     font-weight:700;
   }
+
+  /* 列表容器，仅控制最大宽度与外边距 */
   .edu{
-    list-style:none;
-    padding-left:0;
-    margin: .5rem 0 0 0;
     max-width:72ch;
+    margin:.5rem 0 0 0;
+    padding:0;
+    list-style:none;
   }
+
   .edu-item{
-    font-size:1.1rem;            /* 每一项 1.1rem */
+    font-size:1.1rem;              /* 每项 1.1rem */
     color:var(--text);
     line-height:1.45;
     margin:.6rem 0;
-    display:flex;                /* 让 bullet 与文本自然对齐 */
+    display:flex;                  /* 用 flex 让圆点与文本自然对齐 */
     align-items:flex-start;
   }
   .edu-item::before{
     content:"";
-    width:10px; height:10px;
+    width:var(--bullet-size); height:var(--bullet-size);
     border-radius:50%;
     background: var(--accent);
-    flex: 0 0 10px;
-    margin-right:.6rem;
-    margin-top:.5em;             /* ← 让圆点与首行中线对齐；需要更高/更低可微调 */
+    flex: 0 0 var(--bullet-size);
+    margin-right: var(--bullet-gap);
+    margin-top: .5em;              /* 让圆点大致落在首行的中线上，可微调 */
     box-shadow: 0 0 0 3px rgba(46,139,87,.15);
   }
   .edu-year{ font-weight:700; margin-right:.4rem; }
 
-  /* “View Full CV” 与 Education 同字号且左对齐 */
+  /* 让“View Full CV”与列表文本左边界对齐：左侧缩进 = 圆点宽度 + 间距 */
   .view-cv{
-    display:block;               /* 独占一行，左边界与标题/列表对齐 */
+    display:block;
     margin-top: 1.1rem;
-    font-size: 1.3rem;           /* 与 Education 一样大 */
+    margin-left: calc(var(--bullet-size) + var(--bullet-gap));
+    font-size: 1.3rem;             /* 与 Education 标题一致 */
     font-weight: 700;
     color: var(--accent);
     text-decoration: none;
@@ -76,9 +84,9 @@ title: About Yao Xiong
   }
   .view-cv:hover{ border-color: var(--accent); }
 
-  /* 适配小屏：保持布局与对齐 */
+  /* 小屏时堆叠，让头像从顶部开始以免过度居中 */
   @media (max-width: 768px){
-    .about-photo{ align-self: flex-start; } /* 小屏堆叠时让头像跟随文首 */
+    .about-photo{ align-self: flex-start; }
   }
 </style>
 
