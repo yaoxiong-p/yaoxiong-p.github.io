@@ -31,7 +31,7 @@ title: Yao Xiong
 		<!-- 轨道 A -->
 		<div class="posts-track">
 			{%- assign all_posts = site.posts | where_exp: "p", "p.published != false" -%}
-			{%- for post in all_posts -%}
+			{%- for post in all_posts limit:6 -%}
 			<article class="post-card">
 				<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
 				<h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
@@ -47,7 +47,7 @@ title: Yao Xiong
 
 		<!-- 轨道 B (复制一份) -->
 		<div class="posts-track" aria-hidden="true">
-			{%- for post in all_posts -%}
+			{%- for post in all_posts limit:6 -%}
 			<article class="post-card">
 				<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
 				<h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
@@ -60,16 +60,6 @@ title: Yao Xiong
 			</article>
 			{%- endfor -%}
 		</div>
-	</div>
-
-	<!-- Pagination links -->
-	<div class="pagination" style="margin-top:36px;">
-		{%- if paginator.previous_page -%}
-		<a href="{{ paginator.previous_page_path | relative_url }}" class="previous button__outline">Newer Posts</a>
-		{%- endif -%}
-		{%- if paginator.next_page -%}
-		<a href="{{ paginator.next_page_path | relative_url }}" class="next button__outline">Older Posts</a>
-		{%- endif -%}
 	</div>
 </div>
 
