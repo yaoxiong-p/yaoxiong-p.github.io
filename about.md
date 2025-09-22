@@ -25,7 +25,7 @@ title: About Yao Xiong
   }
   .about-main{ flex:1 1 420px; min-width:320px; }
   .about-name{ font-size:1.8rem; font-weight:700; margin:.25rem 0 0.75rem; }
-  .introp{ font-size:1.3rem; line-height:1.3; color:var(--text); max-width:72ch; text-align: justify;}
+  .introp{ font-size:1.3rem; line-height:1.5; color:var(--text); max-width:72ch; text-align: justify;}
   
   /* Education 样式 */
   .section-title{ 
@@ -37,13 +37,22 @@ title: About Yao Xiong
   .edu{
     max-width: 72ch; 
     margin-top: 0.5rem;
-    padding-left:0; /* 去掉缩进 */
+    padding-left:0;
+    list-style: none; /* 去掉默认列表样式 */
   }
   .edu-item{ 
     margin: .6rem 0 .6rem; 
     color:var(--text); 
-    padding-left:0; 
-    font-size:1.1rem; /* 每一项的字体大小 */
+    font-size:1.1rem; 
+    display: flex;
+    align-items: flex-start;
+  }
+  .edu-item::before{
+    content:"•";
+    color: var(--accent);
+    margin-right: .6rem;
+    font-size: 1.3rem;
+    line-height: 1.1rem;
   }
   .edu-year{ font-weight:700; margin-right:.4rem; }
 
@@ -69,11 +78,11 @@ title: About Yao Xiong
       </p>
 
       <h2 class="section-title">Education</h2>
-      <div class="edu">
-        <div class="edu-item"><span class="edu-year">2022</span> Ph.D., Materials Science and Engineering — Clemson University</div>
-        <div class="edu-item"><span class="edu-year">2016</span> M.S., Materials Science and Engineering — University of Florida</div>
-        <div class="edu-item"><span class="edu-year">2014</span> B.E., Composite Materials Engineering — Wuhan University of Technology</div>
-      </div>
+      <ul class="edu">
+        <li class="edu-item"><span class="edu-year">2022</span> Ph.D., Materials Science and Engineering — Clemson University</li>
+        <li class="edu-item"><span class="edu-year">2016</span> M.S., Materials Science and Engineering — University of Florida</li>
+        <li class="edu-item"><span class="edu-year">2014</span> B.E., Composite Materials Engineering — Wuhan University of Technology</li>
+      </ul>
 
       <a class="view-cv" href="{{ '/assets/cv/Yao_Xiong_CV.pdf' | relative_url }}" target="_blank" rel="noopener">View Full CV</a>
     </div>
