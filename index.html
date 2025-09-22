@@ -1,0 +1,68 @@
+---
+layout: default
+title: Yao Xiong
+---
+
+<div class="home" id="home">
+  <!-- 让整页的锚点滚动变成平滑 -->
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+
+  <!-- Research Interests Section -->
+  <section class="research-interests" id="research-interests">
+    <h1 class="pageTitle">Research Interests</h1>
+    <div style="display:flex; justify-content:center;">
+      <video 
+        controls 
+        autoplay 
+        loop 
+        muted 
+        style="max-width:100%;height:auto;" 
+        onplay="this.playbackRate=0.75;">
+        <source src="{{ '/assets/Video2.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <p>
+      My research focuses on designing smart systems that adapt, respond, and interact with their environment. By integrating computer modeling and simulation with close collaboration with experimental scientists, I aim to create systems that learn from nature and address pressing challenges in technology and healthcare. My work advances computational methods, nanomaterials, polymer physics, clean energy, flexible electronics, soft robotics, and biomedical technologies, such as drug delivery and medical devices.
+    </p>
+  </section>
+  
+  <!-- Recent Works：改成一个带锚点的静态区块 -->
+  <section id="recent-works" aria-label="Recent Works">
+    <h1 class="pageTitle">Recent Works</h1>
+
+    <!-- 静态纵向列表（无复制、无动画） -->
+    <div class="posts-list" style="display:grid; gap:24px;">
+      {%- for post in paginator.posts -%}
+      <article style="background:#fff;border-radius:8px;box-shadow:0 0 4px #ddd;padding:16px;">
+        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+        <h3 style="margin:8px 0;">
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+        {%- if post.image -%}
+        <img src="{{ post.image | relative_url }}" alt="Post image" style="max-width:100%;height:auto;border-radius:6px;">
+        {%- endif -%}
+        <p style="margin-top:10px;">
+          {%- if post.description -%}
+            {{ post.description }}
+          {%- else -%}
+            {{ post.excerpt | strip_html }}
+          {%- endif -%}
+        </p>
+      </article>
+      {%- endfor -%}
+    </div>
+
+    <!-- 分页 -->
+    <div class="pagination" style="margin-top:36px;">
+      {%- if paginator.previous_page -%}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="previous button__outline">Newer Posts</a>
+      {%- endif -%}
+      {%- if paginator.next_page -%}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="next button__outline">Older Posts</a>
+      {%- endif -%}
+    </div>
+  </section>
+</div>
