@@ -32,7 +32,16 @@ title: About Yao Xiong
 
   .about-main{ flex:1 1 420px; min-width:320px; }
   .about-name{ font-size:1.8rem; font-weight:700; margin:.25rem 0 0.75rem; }
-  .introp{ font-size:1.3rem; line-height:1.5; color:var(--text); max-width:72ch; text-align: justify;}
+  .introp{
+  font-size:1.3rem;
+  line-height:1.68;
+  color:var(--text);
+  max-width:72ch;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
 
   /* ---------- Education ---------- */
   .section-title{
@@ -88,6 +97,7 @@ title: About Yao Xiong
   @media (max-width: 768px){
     .about-photo{ align-self: flex-start; }
   }
+  
 </style>
 
 <div class="post">
