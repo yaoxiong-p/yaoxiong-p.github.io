@@ -25,8 +25,8 @@ navigation:
       url: /index.html
     - title: About
       url: /about
-    - title: Recent Works
-      url: /recent_works
+    - title: Recent Projects
+      url: /recent_projects
     #- title: Research
       #url: /research
     - title: Publications
