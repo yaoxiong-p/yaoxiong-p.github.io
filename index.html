@@ -26,7 +26,7 @@ title: Yao Xiong
 	
 	<h1 class="pageTitle">Recent Works</h1>
 
-	<!-- 横向无缝滚动（仅显示最新 6 篇） -->
+	<!-- 横向无缝滚动（仅显示最新 5 篇） -->
 	<div class="posts-marquee" aria-label="Recent Publications">
 		<!-- 轨道 A -->
 		<div class="posts-track">
@@ -47,7 +47,7 @@ title: Yao Xiong
 
 		<!-- 轨道 B (复制一份) -->
 		<div class="posts-track" aria-hidden="true">
-			{%- for post in all_posts limit:6 -%}
+			{%- for post in all_posts limit:5 -%}
 			<article class="post-card">
 				<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
 				<h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
