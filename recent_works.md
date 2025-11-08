@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Recent works
+title: Recent Projects
 ---
 
 <div id="recent-works">
-  <h1 class="recent-title">Recent Works</h1>
+  <h1 class="recent-title">Recent Projects</h1>
   <ul class="posts noList">
     {%- for post in site.posts -%}
       <li style="display:flex; align-items:flex-start; margin-bottom:24px; gap:20px;">
