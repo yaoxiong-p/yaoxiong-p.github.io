@@ -8,6 +8,8 @@ permalink: /publications/
 
 ---
 <ol reversed>
+<li> <strong>Y. Xiong</strong>; C. Balzer; E. C. McGarrigle; G. H. Fredrickson, “<a href="https://doi.org/10.1063/5.0356191" target="_blank">Coherent-State Field-Theoretic Simulations of Fluctuation-Dominated Reaction–Diffusion Systems</a>”, <em>J. Chem. Phys.</em> <strong>2026</strong>, <em>165</em>(13), 134105.</li>
+  
 <li> <strong>Y. Xiong</strong>; C. Deng; S. Wei; L. M. Campos; M. Olvera de la Cruz, “<a href="https://doi.org/10.1021/acs.macromol.5c01102" target="_blank">Design Principles of Stimuli-Responsive Covalent Adaptable Networks</a>”, <em>Macromolecules</em> <strong>2025</strong>, <em>58</em>(17), 9546–9555.</li>
 
 <li> C. M. Hemmingsen; S. J. Chapman; C. Deng; <strong>Y. Xiong</strong>; C. J. Hanley; V. Zhang; M. Olvera de la Cruz; J. A. Kalow, “<a href="https://doi.org/10.1021/acs.macromol.5c01258" target="_blank">Rheological Isotope Effects for Molecular Insight in Covalent Adaptable Networks</a>”, <em>Macromolecules</em> <strong>2025</strong>, <em>58</em>(15), 7957–7966.</li>
